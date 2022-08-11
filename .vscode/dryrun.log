@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kali/stockolm_repo'
+mkdir -p objs/
+gcc -I/home/linuxbrew/.linuxbrew/opt/openssl@1.1/include/openssl -c -g -I include -o objs/stockolm.o src/stockolm.c
+echo "Compiling src/stockolm.c"
+gcc objs/stockolm.o -L/home/linuxbrew/.linuxbrew/opt/openssl@1.1/lib -lssl -lcrypto -o stockolm
+echo "Built stockolm"
+make: Leaving directory '/home/kali/stockolm_repo'
+ 
