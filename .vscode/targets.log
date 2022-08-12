@@ -1,54 +1,91 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Aug 11 13:05:20 2022
+ 
+# Make data base, printed on Fri Aug 12 07:59:04 2022
+ 
 
 # Variables
+ 
 
-# makefile (from 'Makefile', line 15)
+ 
+# makefile (from 'Makefile', line 20)
+ 
 OBJ = $(addprefix $(OBJS_DIR)/,$(SRC:.c=.o))
+ 
 # environment
+ 
 GDK_BACKEND = x11
+ 
 # environment
+ 
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
+ 
 # makefile (from 'Makefile', line 13)
-SRC = stockolm.c 
-# environment
-TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
+ 
+SRC = encrypt.c decrypt.c stockolm.c files_lst.c get_things.c simple_options.c 
+ 
 # makefile (from 'Makefile', line 6)
+ 
 SRC_DIR = src
+ 
 # environment
-VSCODE_CWD = /home/kali/stockolm_repo
+ 
+VSCODE_CWD = /home/kali
+ 
 # environment
+ 
 LESS_TERMCAP_me = [0m
+ 
 # environment
-TERMINATOR_UUID = urn:uuid:f8af6a1f-0ff1-430b-ad54-a8f58b4e3ec2
-# environment
+ 
 GDM_LANG = en_US.utf8
+ 
 # default
+ 
 MAKE_COMMAND := make
+ 
 # environment
+ 
 QT_ACCESSIBILITY = 1
+ 
 # automatic
+ 
 @D = $(patsubst %/,%,$(dir $@))
+ 
 # makefile (from 'Makefile', line 5)
+ 
 INCLUDE_DIR = include
+ 
 # environment
+ 
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+ 
 # default
+ 
 .VARIABLES := 
+ 
 # environment
+ 
 PWD = /home/kali/stockolm_repo
+ 
 # automatic
+ 
 %D = $(patsubst %/,%,$(dir $%))
+ 
 # environment
+ 
 XDG_DATA_DIRS = /usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
 # environment
 OLDPWD = /home/kali
@@ -74,12 +111,10 @@ LESS_TERMCAP_md = [1;36m
 MAKEFLAGS = pqrR
 # environment
 LESS_TERMCAP_so = [01;33m
-# environment
-TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
 # makefile
 CURDIR := /home/kali/stockolm_repo
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -87,7 +122,7 @@ LESS_TERMCAP_ue = [0m
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-NugssShcmrRQ/agent.855
+SSH_AUTH_SOCK = /tmp/ssh-8iMfZDhujS9l/agent.839
 # default
 .SHELLFLAGS := -c
 # environment
@@ -101,13 +136,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1184
+VSCODE_PID = 1163
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/855,unix/kali:/tmp/.ICE-unix/855
+SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/839,unix/kali:/tmp/.ICE-unix/839
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,13 +164,13 @@ LESS_TERMCAP_us = [1;32m
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+PATH = /usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools
 # environment
 LESS_TERMCAP_se = [0m
 # default
@@ -157,7 +192,7 @@ XDG_SEAT = seat0
 # environment
 XDG_CURRENT_DESKTOP = XFCE
 # environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -170,7 +205,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = kali
-# makefile (from 'Makefile', line 22)
+# makefile (from 'Makefile', line 27)
 CPPFLAGS = -I/home/linuxbrew/.linuxbrew/opt/openssl@1.1/include/openssl
 # environment
 XDG_VTNR = 7
@@ -184,20 +219,18 @@ USER = kali
 GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
-# makefile (from 'Makefile', line 23)
+# makefile (from 'Makefile', line 28)
 LDFLAGS = -L/home/linuxbrew/.linuxbrew/opt/openssl@1.1/lib -lssl -lcrypto
 # makefile (from 'Makefile', line 7)
 OBJS_DIR = objs
 # environment
-SSH_AGENT_PID = 935
+SSH_AGENT_PID = 920
 # environment
-_ = /usr/bin/code
+_ = /usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 21)
+# makefile (from 'Makefile', line 26)
 CFLAGS = -g $(INC)
-# environment
-COLORTERM = truecolor
 # environment
 POWERSHELL_TELEMETRY_OPTOUT = 1
 # environment
@@ -213,11 +246,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-f2138f4e-1.69.2-main.sock
 # environment
-TERM = xterm-256color
-# environment
 XDG_SESSION_ID = 2
-# environment
-PANEL_GDK_CORE_DEVICE_EVENTS = 0
 # environment
 DOTNET_CLI_TELEMETRY_OPTOUT = 1
 # default
@@ -229,23 +258,17 @@ SUFFIXES :=
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6402
-# environment
 XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/kali
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 20)
+# makefile (from 'Makefile', line 25)
 CC = gcc
 # environment
 XDG_MENU_PREFIX = xfce-
 # environment
 GDMSESSION = lightdm-xsession
 # variable set hash-table stats:
-# Load=117/1024=11%, Rehash=0, Collisions=14/160=9%
+# Load=107/1024=10%, Rehash=0, Collisions=12/152=8%
 
 # Pattern-specific Variable Values
 
@@ -253,15 +276,15 @@ GDMSESSION = lightdm-xsession
 
 # Directories
 
-# src (device 2049, inode 3161504): 1 files, no impossibilities so far.
-# . (device 2049, inode 3161457): 9 files, no impossibilities.
+# src (device 2049, inode 3161504): 8 files, no impossibilities so far.
+# . (device 2049, inode 3161457): 10 files, no impossibilities.
 
-# 10 files, no impossibilities in 2 directories.
+# 18 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
 objs/%.o: src/%.c
-#  recipe to execute (from 'Makefile', line 28):
+#  recipe to execute (from 'Makefile', line 33):
 	@mkdir -p $(dir $@)
 	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
 	@echo "Compiling $^"
@@ -270,45 +293,51 @@ objs/%.o: src/%.c
 # Files
 
 # Not a target:
+src/decrypt.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-12 07:54:56.245382281
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 08:16:06.732444
+#  Last modified 2022-08-12 07:58:56.022018701
+#  File has been updated.
+#  Successfully updated.
+
+objs/decrypt.o: src/decrypt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'decrypt'
+#  Last modified 2022-08-12 07:55:54.626560801
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
+	@mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
+	@echo "Compiling $^"
+
+# Not a target:
+src/get_things.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-12 07:52:51.543056933
 #  File has been updated.
 #  Successfully updated.
 
 clean:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 39):
+#  recipe to execute (from 'Makefile', line 44):
 	@rm -rf $(OBJS_DIR)
 
 objs/stockolm.o: src/stockolm.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'stockolm'
-#  Last modified 2022-08-04 08:58:34.742069
+#  Last modified 2022-08-12 07:58:57.89001878
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := objs/stockolm.o
-# automatic
-# * := stockolm
-# automatic
-# < := src/stockolm.c
-# automatic
-# + := src/stockolm.c
-# automatic
-# % := 
-# automatic
-# ^ := src/stockolm.c
-# automatic
-# ? := src/stockolm.c
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=4/20=20%
-#  recipe to execute (from 'Makefile', line 28):
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
 	@mkdir -p $(dir $@)
 	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
 	@echo "Compiling $^"
@@ -318,6 +347,33 @@ re: fclean all
 #  Modification time never checked.
 #  File has not been updated.
 
+objs/simple_options.o: src/simple_options.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'simple_options'
+#  Last modified 2022-08-12 07:58:57.946018782
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
+	@mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
+	@echo "Compiling $^"
+
+objs/get_things.o: src/get_things.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'get_things'
+#  Last modified 2022-08-12 07:52:58.218393215
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
+ 
+	@mkdir -p $(dir $@)
+ 
+	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
+ 
+	@echo "Compiling $^"
+ 
+
+ 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
@@ -331,47 +387,113 @@ all: stockolm
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
 
 fclean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 42):
+#  recipe to execute (from 'Makefile', line 47):
 	@rm -f $(NAME)
 
 # Not a target:
 src/stockolm.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 08:58:45.24207
+#  Last modified 2022-08-12 07:57:31.634015119
 #  File has been updated.
 #  Successfully updated.
 
-stockolm: objs/stockolm.o
+stockolm: objs/encrypt.o objs/decrypt.o objs/stockolm.o objs/files_lst.o objs/get_things.o objs/simple_options.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-08-04 08:58:34.794069
+#  Implicit/static pattern stem: ''
+#  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
+# automatic
+# @ := stockolm
+# automatic
+# * := 
+# automatic
+# < := objs/encrypt.o
+# automatic
+# + := objs/encrypt.o objs/decrypt.o objs/stockolm.o objs/files_lst.o objs/get_things.o objs/simple_options.o
+# automatic
+# % := 
+# automatic
+# ^ := objs/encrypt.o objs/decrypt.o objs/stockolm.o objs/files_lst.o objs/get_things.o objs/simple_options.o
+# automatic
+# ? := objs/encrypt.o objs/decrypt.o objs/stockolm.o objs/files_lst.o objs/get_things.o objs/simple_options.o
+# automatic
+# | := 
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
-#  recipe to execute (from 'Makefile', line 35):
+# Load=8/32=25%, Rehash=0, Collisions=3/18=17%
+#  recipe to execute (from 'Makefile', line 40):
 	$(CC) $(OBJ) $(LDFLAGS) -o $(NAME)
 	@echo "Built $(NAME)"
 
+# Not a target:
+src/files_lst.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-12 07:51:52.045320404
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/encrypt.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-12 07:53:35.761156823
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/simple_options.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-12 07:58:46.054018278
+#  File has been updated.
+#  Successfully updated.
+
+objs/files_lst.o: src/files_lst.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'files_lst'
+#  Last modified 2022-08-12 07:52:58.162365213
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
+	@mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
+	@echo "Compiling $^"
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/encrypt.o: src/encrypt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'encrypt'
+#  Last modified 2022-08-12 07:54:19.146840699
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 33):
+	@mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) -c $(CFLAGS) -o $@ $^
+	@echo "Compiling $^"
+
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/29=0%
+# Load=20/1024=2%, Rehash=0, Collisions=0/60=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 185 B / avg = 8 B
-# current buf: size = 8162 B / used = 185 B / count = 22 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 44 / storage = 491 B / avg = 11 B
+# current buf: size = 8162 B / used = 491 B / count = 44 / avg = 11 B
 
-# strcache performance: lookups = 39 / hit rate = 43%
+# strcache performance: lookups = 68 / hit rate = 35%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Thu Aug 11 13:05:21 2022
+# Load=44/8192=1%, Rehash=0, Collisions=0/68=0%
+# Finished Make data base on Fri Aug 12 07:59:05 2022
 
  

@@ -8,11 +8,16 @@ OBJS_DIR    = objs
 
 #--------------- FILES ---------------#
 
-INC                = -I $(INCLUDE_DIR)
+INC             	= 	-I $(INCLUDE_DIR)
 
-SRC                = stockolm.c \
+SRC					=	encrypt.c \
+						decrypt.c \
+						stockolm.c \
+						files_lst.c \
+						get_things.c \
+						simple_options.c \
 
-OBJ                = $(addprefix $(OBJS_DIR)/,$(SRC:.c=.o))
+OBJ               	=	$(addprefix $(OBJS_DIR)/,$(SRC:.c=.o))
 
 
 #--------------- COMPILATION ---------------#

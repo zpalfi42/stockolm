@@ -1,3 +1,6 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "stockolm.h": "c"
+    }
 }
